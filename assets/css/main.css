@@ -1740,22 +1740,31 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 /* Profile */
-.profile.left {
-	height: 100%;
-	width: 20%;
+.profile {
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	align-items: stretch;
 }
 
 .profile.right {
 	height: 100%;
-	width: 80%;
+	width: 25%;
 }
 
+	.profile.left {
+		height: 100%;
+		width: 60%;
+		text-align: center;
+		padding: 5% 5% 5% 10%;
+	}
+
 .profile.detail {
-	padding: 0% 0% 0% 10%;
 	text-align: left;
 }
 
 .profile.objective {
+	width: 100%;
 }
 
 /* Skills */
@@ -2331,9 +2340,21 @@ input, select, textarea {
 				padding: 3em 0;
 			}
 
+		/* Header */
+
+		#header {
+			width: 16%;
+		}
+
 			#main section.cover {
 				padding: 5em 0;
 			}
+
+		/* Main */
+
+		#main {
+			margin-left: 16%;
+		}
 
 	}
 
@@ -2366,7 +2387,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 20%;
+				width: 16%;
 			}
 
 			#logo .image {
@@ -2399,7 +2420,7 @@ input, select, textarea {
 		/* Main */
 
 			#main {
-				margin-left: 20%;
+				margin-left: 16%;
 			}
 
 	}
